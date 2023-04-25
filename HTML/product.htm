@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../styles/style0.css" />
+    <link rel="stylesheet" href="../styles/icons-OJJO.css" />
+    <link rel="stylesheet" href="../styles/product.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OJJO</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header__block">
+        <div class="header__block__logo-nav">
+          <nav class="nav header__block__nav1">
+            <ul>
+              <li class="nav__item">
+                <a class="nav__link" href="/">Контрагентам</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="/">Дизайнерам</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="/">Вакансии</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__block__logo"></div>
+
+          <nav class="nav header__block__nav2">
+            <ul>
+              <li class="nav__item icon-search">
+                <form action="">
+                  <input
+                    class="header__search"
+                    placeholder="Поиск"
+                    value="Поиск"
+                    type="text"
+                  />
+                </form>
+              </li>
+              <li class="nav__item nav__link__sign">
+                <a class="nav__link" href="/">Вход/Регистрация</a>
+              </li>
+              <li class="nav__item nav__item__line"></li>
+              <li class="nav__item__contact">
+                <a class="icon-contact" href="/"></a>
+              </li>
+              <li class="nav__item__heart">
+                <a class="icon-heart" href="/"></a>
+              </li>
+              <li class="nav__item nav__item__line"></li>
+              <li class="nav__item nav__item__yotube-mobile">
+                <a class="icon-yotobe__mobile" href="/"></a>
+              </li>
+              <li class="nav__item nav__item__wk-mobile">
+                <a class="icon-wk__mobile" href="/"></a>
+              </li>
+              <li class="nav__item nav__item__facebook-mobile">
+                <a class="icon-facebook__mobile" href="/"></a>
+              </li>
+              <li class="nav__item nav__item__telegram-mobile">
+                <a class="icon-telegram__mobile" href="/"></a>
+              </li>
+              <li class="nav__item nav__item__e-mobile">
+                <a class="icon-e__mobile" href="/"></a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="burger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+
+    <main class="main">
+      <div class="filter__block">
+        <ul class="filter__list">
+          <li class="filter__item">
+            <div class="icon-Polygon-3"></div>
+            <p class="filter__text">Бренд</p>
+            <input class="filter__toggle" id="toggle" type="checkbox" hidden />
+            <label for="toggle"></label>
+            <ul>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+            </ul>
+          </li>
+          <li class="filter__item">
+            <div class="icon-Polygon-3"></div>
+            <p class="filter__text">Цена</p>
+            <input class="filter__toggle" id="toggle" type="checkbox" hidden />
+            <label for="toggle"></label>
+            <ul>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+            </ul>
+          </li>
+          <li class="filter__item">
+            <div class="icon-Polygon-3"></div>
+            <p class="filter__text">Для кого</p>
+            <input class="filter__toggle" id="toggle" type="checkbox" hidden />
+            <label for="toggle"></label>
+            <ul>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+            </ul>
+          </li>
+          <li class="filter__item">
+            <div class="icon-Polygon-3"></div>
+            <p class="filter__text">Коллекция</p>
+            <input class="filter__toggle" id="toggle" type="checkbox" hidden />
+            <label for="toggle"></label>
+            <ul>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+            </ul>
+          </li>
+          <li class="filter__item">
+            <div class="icon-Polygon-3"></div>
+            <p class="filter__text">Сезон</p>
+            <input class="filter__toggle" id="toggle" type="checkbox" hidden />
+            <label for="toggle"></label>
+            <ul>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+            </ul>
+          </li>
+          <li class="filter__item">
+            <div class="icon-Polygon-3"></div>
+            <p class="filter__text">Событие</p>
+            <input class="filter__toggle" id="toggle" type="checkbox" hidden />
+            <label for="toggle"></label>
+            <ul>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+              <li>
+                <a class="filter__link" href="/">item</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="cards-container__btn__block">
+        <div class="cards-container__block">
+          <div class="cards">
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+          </div>
+          <div class="separating-cards__block-line"></div>
+          <div class="cards">
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+          </div>
+        </div>
+        <div class="separating-cards-container__block-line"></div>
+        <div class="cards-container__block">
+          <div class="cards">
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+          </div>
+          <div class="separating-cards__block-line"></div>
+          <div class="cards">
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+            <div class="card">
+              <div class="card-photo"></div>
+              <p class="card__name">Подвеска</p>
+              <p class="card__text">Dolce & Gabanna</p>
+              <button class="btn__card-price">175 000 ₽</button>
+            </div>
+          </div>
+        </div>
+        <button class="btn__cards-see" type="button">покажите еще</button>
+      </div>
+      <div class="text__btn-read-more__picture__block">
+        <div class="text-blur__block">
+          <img class="blur__picture" src="/img/png/Rectangle 22.png" alt="" />
+          <div class="text__btn-read-more__block">
+            <div class="text-all__block">
+              <p class="text__block">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
+                lorem eu commodo porttitor erat. Amet mauris cursus bibendum in
+                egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas
+                dignissim augue suspendisse rutrum pretium lobortis dolor.
+                Commodo sagittis at amet faucibus faucibus id. Bibendum placerat
+                convallis gravida eu quisque et augue. Sed dignissim amet ut
+                vitae at ornare sed.
+              </p>
+              <p class="text__block">
+                Commodo sagittis at amet faucibus faucibus id. Bibendum placerat
+                convallis gravida eu quisque et augue. Sed dignissim amet ut
+                vitae at ornare sed.
+              </p>
+              <p class="text__block">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
+                lorem eu commodo porttitor erat. Amet mauris cursus bibendum in
+                egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas
+                dignissim augue suspendisse rutrum pretium lobortis dolor.
+                Commodo sagittis at amet faucibus faucibus id. Bibendum placerat
+                convallis gravida eu quisque et augue. Sed dignissim amet ut
+                vitae at ornare sed.
+              </p>
+              <p class="text__block">
+                Commodo sagittis at amet faucibus faucibus id. Bibendum placerat
+                convallis gravida eu quisque et augue. Sed dignissim amet ut
+                vitae at ornare sed.
+              </p>
+            </div>
+            <button class="btn-read-more">читать полностью</button>
+          </div>
+        </div>
+        <div class="icon-text__block">
+          <div class="icon-text__block__item">
+            <img
+              class="transport-picture"
+              src="/img/svg/transport.svg"
+              alt=""
+            />
+            <p class="icon-text__block__text icon-transport-text">
+              Бесплатная доставка
+            </p>
+          </div>
+          <div class="icon-text__block__item">
+            <img src="/img/svg/book.svg" alt="" />
+            <p class="icon-text__block__text icon-book-text">
+              Индивидуальный дизайн
+            </p>
+          </div>
+          <div class="icon-text__block__item">
+            <img src="/img/svg/construction.svg" alt="" />
+            <p class="icon-text__block__text">Бесплатная примерка</p>
+          </div>
+          <div class="icon-text__block__item">
+            <img src="/img/svg/jewelry.svg" alt="" />
+            <p class="icon-text__block__text icon-jewelry-text">
+              Личный подход
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mailing-list__block">
+        <p class="text__advice-and-suggestions">
+          Полезные советы и персональный предложения
+        </p>
+        <h2 class="text__exclusive-mailings">Эксклюзивная рассылка</h2>
+        <div class="mailing-list__block-list-input">
+          <ul class="mailing-list__list">
+            <li class="mailing-list__list-element">
+              <img
+                class="mailing-list__list-img"
+                src="/img/svg/subscribe__icon.svg"
+                alt=""
+              />
+              <p>Личный менеджер</p>
+            </li>
+            <li class="mailing-list__list-element">
+              <img
+                class="mailing-list__list-img"
+                src="/img/svg/subscribe__icon.svg"
+                alt=""
+              />
+              <p>Доставка и оформление</p>
+            </li>
+            <li class="mailing-list__list-element">
+              <img
+                class="mailing-list__list-img"
+                src="/img/svg/subscribe__icon.svg"
+                alt=""
+              />
+              <p>Индивидуальный дизайн</p>
+            </li>
+          </ul>
+          <div class="mailing-list__input-border">
+            <div class="mailing-list__input-block">
+              <form action="">
+                <input
+                  class="mailing-list__input"
+                  placeholder="Ваш e-mail"
+                  type="email"
+                />
+              </form>
+              <button class="mailing-list__input-button">отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__contact-information__block">
+        <div class="footer__links__block">
+          <h3 class="footer__header">Полезные ссылки</h3>
+          <div class="footer__small-line"></div>
+          <ul>
+            <li class="footer__list-element">
+              <a href="" class="footer__list-link">Доставка</a>
+            </li>
+            <li class="footer__list-element">
+              <a href="" class="footer__list-link">Оплата</a>
+            </li>
+            <li class="footer__list-element">
+              <a href="" class="footer__list-link">Акции</a>
+            </li>
+            <li class="footer__list-element">
+              <a href="" class="footer__list-link"
+                >Политика конфиденциальности</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__payment__block">
+          <h3 class="footer__header">оплата</h3>
+          <div class="footer__small-line"></div>
+          <p class="footer__contact-information__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
+            justo, nec, pellentesque.
+          </p>
+          <img src="/img/jpg/VISA.jpg" alt="" />
+          <img
+            class="footer__mastercard"
+            src="/img/jpg/mastercard.jpg"
+            alt=""
+          />
+        </div>
+        <div class="footer__contacts__block">
+          <h3 class="footer__header">контакты</h3>
+          <div class="footer__small-line"></div>
+          <ul>
+            <li class="footer__two-list-element icon-telephone2">
+              <p class="footer__contacts__text">8 (812) 234-56-55</p>
+            </li>
+            <li class="footer__two-list-element icon-telephone2">
+              <p class="footer__contacts__text">8 (812) 234-56-55</p>
+            </li>
+            <li class="footer__two-list-element icon-letter">
+              <p class="footer__contacts__text">ojjo@ojjo.ru</p>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social-media__block">
+          <h3 class="footer__header">социальные сети</h3>
+          <div class="footer__small-line"></div>
+          <p class="footer__contact-information__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
+            justo, nec, pellentesque.
+          </p>
+          <div class="footer__social-media__grid-block">
+            <a class="icon-yotube" href="/"></a>
+            <a class="icon-wk" href="/"></a>
+            <a class="icon-facebook" href="/"></a>
+            <a class="icon-telegram" href="/"></a>
+            <a class="icon-e-2" href="/"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__block__line"></div>
+      <div class="footer__link__block">
+        <a href="/" class="footer__contact-information__link"
+          >(c) 2020 OJJO jewelry</a
+        >
+        <a href="/" class="footer__contact-information__link"
+          >Договор публичной офферты</a
+        >
+        <a href="/" class="footer__contact-information__link">Контрагентам</a>
+        <a href="/" class="footer__contact-information-figma__link"
+          >Сделано Figma.info</a
+        >
+      </div>
+    </footer>
+    <!-- script -->
+    <script>
+      document.querySelector(".burger").addEventListener("click", function () {
+        this.classList.toggle("active");
+        document.querySelector(".header__block__nav1").classList.toggle("open");
+        document.querySelector(".header__block__nav2").classList.toggle("open");
+      });
+    </script>
+
+    <script>
+      const btn__see_all = document.querySelector(".btn__cards-see");
+      const cards = document.querySelectorAll(".cards-container__block");
+      const separator = document.querySelector(
+        ".separating-cards-container__block-line"
+      );
+
+      btn__see_all.addEventListener("click", function () {
+        for (let card of cards) {
+          card.style.display = "grid";
+        }
+
+        separator.style.display = "block";
+        btn__see_all.style.display = "none";
+      });
+    </script>
+
+    <script>
+      const btn__read_more = document.querySelector(".btn-read-more");
+      const text = document.querySelector(".text-all__block");
+      const picture = document.querySelector(".blur__picture");
+      const block = document.querySelector(".text__btn-read-more__block");
+      const block_all = document.querySelector(".text-blur__block");
+
+      btn__read_more.addEventListener("click", function () {
+        picture.style.display = "none";
+        btn__read_more.style.display = "none";
+        text.style.height = "auto";
+        text.style.overflow = "visible";
+        block.style.position = "static";
+        block_all.style.height = "auto";
+        block_all.style.overflow = "visible";
+      });
+    </script>
+  </body>
+</html>
